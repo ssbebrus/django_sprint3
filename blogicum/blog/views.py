@@ -1,10 +1,8 @@
-from django.shortcuts import render
-from django.http import Http404
 from django.views.generic import (
-    ListView, DetailView, CreateView, DeleteView, UpdateView
+    ListView, DetailView
 )
-from .models import Post, Category, Location
-from django.shortcuts import get_object_or_404, redirect
+from .models import Post, Category
+from django.shortcuts import get_object_or_404
 from django.utils import timezone
 # Create your views here.
 
